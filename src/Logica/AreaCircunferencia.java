@@ -1,15 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package Logica;
 
-/**
- *
- * @author 15
- */
+
 public class AreaCircunferencia {
     
+}
+
+public double CalcularAreaCircunferencia (double radio,double area) {
+	
+        double pi = 3.14;
+        radio = Integer.parseInt(tfRadio.getText());
+        double area = pi*Math.pow(radio, 2);
+        tfArea.setText(""+area);
+	}
 }

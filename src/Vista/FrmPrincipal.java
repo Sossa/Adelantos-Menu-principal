@@ -110,14 +110,23 @@ public class FrmPrincipal extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void Jmenu1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Jmenu1MouseClicked
+        
         FrmPitagoras pitagoras = new FrmPitagoras();
         pitagoras.setVisible(true);         
         pitagoras.setDefaultCloseOperation(FrmPitagoras.DISPOSE_ON_CLOSE);
-               
-           
         
+        FrmAreaCircunferencia areacircunf = new FrmAreaCircunferencia();
+        areacircunf.setVisible(true);         
+        areacircunf.setDefaultCloseOperation(FrmAreaCircunferencia.DISPOSE_ON_CLOSE);
         
-                       
+        FrmCtoSerie ctoSerie = new FrmCtoSerie();
+        ctoSerie.setVisible(true);         
+        ctoSerie.setDefaultCloseOperation(FrmCtoSerie.DISPOSE_ON_CLOSE);
+        
+        FrmCtoParalelo ctoParalelo = new FrmCtoParalelo();
+        ctoParalelo.setVisible(true);         
+        ctoParalelo.setDefaultCloseOperation(FrmCtoParalelo.DISPOSE_ON_CLOSE);
+                               
        
     }//GEN-LAST:event_Jmenu1MouseClicked
 
